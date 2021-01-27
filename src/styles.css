@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+ngb-carousel .picsum-img-wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 55%; /* Keep ratio for 900x500 images */
+    
+  }
+  
+  ngb-carousel .picsum-img-wrapper>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-height: 50%;
+   
+  }
+
+  nav {
+      margin-bottom: 5px !important;
+  }
